@@ -1,0 +1,32 @@
+.container{
+    height: 100vh;
+    background-color: #0c0a1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+background-color: blueviolet;
+color: white;
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 20px;
+width: 350px;
+height: 350px;
+}
+
+.input{
+    padding: 20px;
+    outline: none;
+}
+
+.btn{
+    padding: 20px;
+    border: none;
+    background-color: #0c0a1f;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}

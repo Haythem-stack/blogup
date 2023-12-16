@@ -1,0 +1,26 @@
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: 450px;
+    color: white;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    /* Ensure the slides align horizontally */
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    width: 100%;
+    scroll-snap-align: start;
+    background-color: blue;
+  }
+  
+  
+  

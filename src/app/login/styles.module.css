@@ -1,0 +1,48 @@
+.container{
+    height: 100vh;
+    background-color: #0c0a1f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form{
+    padding: 20px;
+    background-image: linear-gradient( blueviolet, #0c0a1f);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+
+.title{
+    margin:0;
+    text-align: center;
+    font-size: 36px;
+}
+
+.input{
+    padding: 20px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid blueviolet;
+}
+
+.btn{
+    margin-top: 30px;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.1);
+border-radius: 5px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+padding: 12px;
+color: white;}
